@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gallery - Assignment Web Technologies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <style>
+        .container{
+            max-width: 1200px;
+            margin:auto ;
+
+        }
+        .gallery{
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 390px;
+        }
+        .gallery img{
+            width: 100%;
+            height: auto;
+        }
+        .desc{
+            padding: 15px;
+            text-align: center;
+        }
+        
+    </style>
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">Website</label>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="Gallery.html">Gallery</a></li>
+        <li><a href="Product.html">Product</a></li>
+        <li><a href="Order.html">Order</a></li>
+        <li><a href="Table.html">Table</a></li>
+      </ul>
+    </nav>
+    <section class="container">
+        <div class="gallery">
+            <img src="shop.jpg" alt="">
+            <p class="desc">Home Decor</p>
+        </div>
+        <div class="gallery">
+            <img src="laptop3.jpg">
+            <p class="desc">Laptop HP</p>
+        </div>
+        <div class="gallery">
+            <img src="decor.jpg">
+            <p class="desc">Home Decor</p>
+        </div>
+        <div class="gallery">
+            <img src="buildings2.jpg">
+            <p class="desc">Building</p>
+        </div>
+        <div class="gallery">
+            <img src="laptop2.jpg" alt="">
+            <p class="desc">Laptop HP</p>
+        </div>
+        <div class="gallery">
+            <img src="buildings.jpg" alt="">
+            <p class="desc">Building</p>
+        </div>
+    </section>
+
+    <!------footer start--------->
+	<footer>
+		<p>Ehtesham Ali-Abdul Rafay</p>
+		<div class="social">
+			<a href="#"><i class="fab fa-facebook-f"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-dribbble"></i></a>
+		</div>
+		<p class="end">CopyRight By Ehtesham Ali-Abdul Rafay</p>
+	</footer>
+  </body>
+</html>

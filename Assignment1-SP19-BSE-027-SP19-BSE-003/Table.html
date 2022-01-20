@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Table - Assignment Web Technologies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <style>
+      .container {
+        max-width: 400px;
+        margin: auto;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      table {
+        border-collapse: collapse;
+        margin: 12px;
+      }
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      .firstrow {
+        background-color: #f9004d;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">Website</label>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li><a href="Product.html">Product</a></li>
+        <li><a href="Order.html">Order</a></li>
+        <li><a class="active" href="Table.html">Table</a></li>
+      </ul>
+    </nav>
+    <section class="container">
+        <table>
+            <caption>List of Orders</caption>
+            <tr class="firstrow">
+              <th>ID</th>
+              <th>Product</th>
+              <th>User</th>
+              <th>Quantity</th>
+              <th>Unit Price</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Laptop HP</td>
+              <td>Sohail</td>
+              <td>1</td>
+              <td>Rs 20000</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Pen</td>
+              <td>Saleem</td>
+              <td>2</td>
+              <td>Rs 100</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Monitor</td>
+              <td>Zaeem</td>
+              <td>1</td>
+              <td>Rs 5000</td>
+            </tr>
+            <tr>
+              <td colspan="3">Total</td>
+              <td colspan="2">4</td>
+              
+            </tr>
+            <tr>
+                <td colspan="3">Price</td>
+                <td colspan="2">Rs 261000</td>
+            </tr>
+            
+          </table>
+          <br>
+      <table>
+        <caption>List of Users</caption>
+        <tr class="firstrow">
+          <th>Full Name</th>
+          <th>Age</th>
+          <th>Job Title</th>
+          <th>Location</th>
+        </tr>
+        <tr>
+          <td>Ahmed Shah</td>
+          <td>27</td>
+          <td>Programmer</td>
+          <td>Lahore</td>
+        </tr>
+        <tr>
+          <td>Saleem Ahmed</td>
+          <td>30</td>
+          <td>Programmer</td>
+          <td>Karachi</td>
+        </tr>
+        <tr>
+          <td>Zahid Butt</td>
+          <td>20</td>
+          <td>Developer</td>
+          <td>Lahore</td>
+        </tr>
+        <tr>
+          <td>Ehtesham Ali</td>
+          <td>24</td>
+          <td>CEO</td>
+          <td>Peshawar</td>
+        </tr>
+        <tr>
+          <td>Tariq Bajwa</td>
+          <td>21</td>
+          <td>Programmer</td>
+          <td>Lahore</td>
+        </tr>
+      </table>
+      
+      
+
+    </section>
+
+    <!------footer start--------->
+	<footer>
+		<p>Ehtesham Ali-Abdul Rafay</p>
+		<div class="social">
+			<a href="#"><i class="fab fa-facebook-f"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-dribbble"></i></a>
+		</div>
+		<p class="end">CopyRight By Ehtesham Ali-Abdul Rafay</p>
+	</footer>
+  </body>
+</html>
